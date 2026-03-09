@@ -2,11 +2,32 @@
   padding: 2rem 0 4rem;
 }
 
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .wrapper {
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid var(--border);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+.label {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted, #8b8fa3);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
 }
 
 .image {

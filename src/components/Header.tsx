@@ -12,8 +12,8 @@ export default function Header() {
         <nav className={styles.nav}>
           <button onClick={() => scrollTo("features")}>Features</button>
           <button onClick={() => scrollTo("lessons")}>Lessons</button>
+          <button onClick={() => scrollTo("keybindings")}>Controls</button>
           <button onClick={() => scrollTo("install")}>Install</button>
-          <a href="https://github.com/alexylon/clavirio" target="_blank" rel="noopener noreferrer">GitHub</a>
         </nav>
       </div>
     </header>
