@@ -8,7 +8,7 @@ export default function Screenshot() {
           <div className={styles.wrapper}>
             <span className={styles.label}>Dark</span>
             <img
-              src="/screenshot_dark.png"
+              src="/images/screenshot_dark.png"
               alt="Clavirio dark theme — typing lesson with virtual keyboard and live stats"
               className={styles.image}
             />
@@ -16,7 +16,7 @@ export default function Screenshot() {
           <div className={styles.wrapper}>
             <span className={styles.label}>Light</span>
             <img
-              src="/screenshot_light.png"
+              src="/images/screenshot_light.png"
               alt="Clavirio light theme — typing lesson with virtual keyboard and live stats"
               className={styles.image}
             />
