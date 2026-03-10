@@ -10,6 +10,37 @@
   margin-bottom: 1rem;
 }
 
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tab {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tab:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.tabActive {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #000;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

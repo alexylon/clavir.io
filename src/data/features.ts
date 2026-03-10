@@ -9,7 +9,7 @@ export const features: Feature[] = [
     icon: "~",
     title: "15 Progressive Lessons",
     description:
-      "From home-row basics to full paragraphs and Rust code. Lessons are ordered by difficulty so you build skills gradually. The menu auto-advances to your next unfinished lesson.",
+      "From home-row basics to full paragraphs and Rust code. Lessons 1\u20139 are tailored to each keyboard layout (QWERTY, Dvorak, Colemak); lessons 10\u201315 are shared. The menu auto-advances to your next unfinished lesson.",
   },
   {
     icon: ">_",
