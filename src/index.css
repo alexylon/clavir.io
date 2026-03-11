@@ -71,6 +71,10 @@ code {
   padding: 0 1.5rem;
 }
 
+.brand-mono {
+  font-family: var(--font-mono);
+}
+
 .section-intro {
   text-align: center;
   color: var(--text-muted);

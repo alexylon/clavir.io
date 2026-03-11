@@ -11,7 +11,7 @@ export default function Install() {
       <div className="container">
         <h2 className={styles.heading}>Install</h2>
         <p className="section-intro">
-          Clavirio is a single binary. Pick whichever way works for you:
+          <span className="brand-mono">Clavirio</span> is a single binary. Pick whichever way works for you:
         </p>
         <div className={styles.methods}>
           <div className={styles.card}>
