@@ -13,6 +13,7 @@ export const keybindings: Keybinding[] = [
   { keys: "Ctrl-R", action: "Restart current lesson" },
   { keys: "Backspace", action: "Correct a mistake" },
   { keys: "Ctrl-C", action: "Save and quit immediately" },
-  { keys: "Esc", action: "Save and return to menu / quit" },
+  { keys: "Esc", action: "Pause / save and return to menu" },
+  { keys: "q", action: "Quit (from pause or menu)" },
   { keys: "r", action: "Restart after completion" },
 ];
